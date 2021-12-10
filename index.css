@@ -1,0 +1,44 @@
+*{
+    margin : 0;
+    padding : 0;
+  }
+  
+  body{
+    text-align :center;
+  }
+  
+  h1{
+    font-size :60px;
+    font-family :arial;
+    padding-top:30px;
+    padding-bottom :50px;
+    color :rgba(255,0,0,0.7);
+  }
+  
+  table, th{
+    font-size :35px;
+    font-family :arial;
+    margin :auto;
+    padding :15px;
+    color :rgba(0,0,200,0.9);
+  
+  }
+  
+  button {
+    font-size :50px;
+    font-family :arial;
+    border: none;
+    background-color :rgba(255,0,0,0.7);
+    color :#fff;
+    padding :5px;
+    width :100vh;
+    border-radius :10px;
+  }
+  
+  button:hover{
+    text-shadow :2px 2px 2px black;
+  }
+ 
+  table, tbody{
+    height : 70px;
+  }

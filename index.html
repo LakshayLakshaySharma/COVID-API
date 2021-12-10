@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Update</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>COVID LIVE UPDATE </h1>
+<!-- create div container and put the table tag in it-->
+<div id = "container">
+  <table>
+    <thread>
+      <tr>
+        <th>New Confirmed Case</th>
+        <th>Total Confirmed Case</th>
+        <th>New Deaths</th>
+        <th>Total Deaths</th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr id = "data"></tr>
+    </tbody>
+  </table>
+</div>
+
+<button onclick = "refresh()">Refresh Data</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>
